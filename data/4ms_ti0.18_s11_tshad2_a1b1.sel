@@ -1,0 +1,222 @@
+________________________________________________________________________________________________________________________
+  Version ID : HAWC2MB 8.8
+                                                            Time : 19:01:17
+                                                            Date : 10:05.2010
+________________________________________________________________________________________________________________________
+  Result file : ./res_sweep/4ms_ti0.18_s11_tshad2_a1b1.dat
+________________________________________________________________________________________________________________________
+   Scans    Channels    Time [sec]      Format
+    30000      104        600.000       BINARY
+
+  Channel   Variable Description               
+
+     1      Time                           s          Time
+     2      bea1 angle                     deg        shaft_rot angle
+     3      bea1 angle_speed               rpm        shaft_rot angle speed
+     4      bea1 angle                     deg        pitch1 angle
+     5      bea1 angle_speed               deg/s      pitch1 angle speed
+     6      bea1 angle                     deg        pitch2 angle
+     7      bea1 angle_speed               deg/s      pitch2 angle speed
+     8      bea1 angle                     deg        pitch3 angle
+     9      bea1 angle_speed               deg/s      pitch3 angle speed
+    10      WSP gl. coo.,Vx                m/s        Free wind speed Vx, gl. coo, of gl. pos    0.00,   0.00, -90.40
+    11      WSP gl. coo.,Vy                m/s        Free wind speed Vy, gl. coo, of gl. pos    0.00,   0.00, -90.40
+    12      WSP gl. coo.,Vz                m/s        Free wind speed Vz, gl. coo, of gl. pos    0.00,   0.00, -90.40
+    13       Omega                         rad/s       Rotor speed
+    14      Ae rot. torque                 kNm        Aero rotor torque
+    15      Ae rot. power                  kW         Aero rotor power
+    16      Ae rot. thrust                 kN         Aero rotor thrust
+    17      Alfa, R= 10.0                  deg        Angle of attack of blade  1 at radius  10.85
+    18      Alfa, R= 45.0                  deg        Angle of attack of blade  1 at radius  45.18
+    19      Alfa, R= 61.5                  deg        Angle of attack of blade  1 at radius  61.54
+    20      Mx coo: blade1                 kNm        MomentMx Mbdy:blade1 nodenr:   0 coo: blade1  mom blade 1 root
+    21      My coo: blade1                 kNm        MomentMy Mbdy:blade1 nodenr:   0 coo: blade1  mom blade 1 root
+    22      Mz coo: blade1                 kNm        MomentMz Mbdy:blade1 nodenr:   0 coo: blade1  mom blade 1 root
+    23      Fx coo: blade1                 kN         Force  Fx Mbdy:blade1 nodenr:   0 coo: blade1  frc blade 1 root
+    24      Fy coo: blade1                 kN         Force  Fy Mbdy:blade1 nodenr:   0 coo: blade1  frc blade 1 root
+    25      Fz coo: blade1                 kN         Force  Fz Mbdy:blade1 nodenr:   0 coo: blade1  frc blade 1 root
+    26      Mx coo: tower                  kNm        MomentMx Mbdy:tower nodenr:   0 coo: tower  mom tower base
+    27      My coo: tower                  kNm        MomentMy Mbdy:tower nodenr:   0 coo: tower  mom tower base
+    28      Mz coo: tower                  kNm        MomentMz Mbdy:tower nodenr:   0 coo: tower  mom tower base
+    29      eulerang_xyz tx coo: blade1    deg        State_rot eulerang_xyz tx Mbdy:blade1 E-nr:   1 Z-rel:1.00 coo: blade1  blade e1 rotation (eulerp)
+    30      eulerang_xyz ty coo: blade1    deg        State_rot eulerang_xyz ty Mbdy:blade1 E-nr:   1 Z-rel:1.00 coo: blade1  blade e1 rotation (eulerp)
+    31      eulerang_xyz tz coo: blade1    deg        State_rot eulerang_xyz tz Mbdy:blade1 E-nr:   1 Z-rel:1.00 coo: blade1  blade e1 rotation (eulerp)
+    32      State pos x  coo: blade1       m          State pos x  Mbdy:blade1 E-nr:   5 Z-rel:1.00 coo: blade1  blade e5 pos
+    33      State pos y  coo: blade1       m          State pos y  Mbdy:blade1 E-nr:   5 Z-rel:1.00 coo: blade1  blade e5 pos
+    34      State pos z  coo: blade1       m          State pos z  Mbdy:blade1 E-nr:   5 Z-rel:1.00 coo: blade1  blade e5 pos
+    35      eulerang_xyz tx coo: blade1    deg        State_rot eulerang_xyz tx Mbdy:blade1 E-nr:   5 Z-rel:1.00 coo: blade1  blade e5 rotation (eulerp)
+    36      eulerang_xyz ty coo: blade1    deg        State_rot eulerang_xyz ty Mbdy:blade1 E-nr:   5 Z-rel:1.00 coo: blade1  blade e5 rotation (eulerp)
+    37      eulerang_xyz tz coo: blade1    deg        State_rot eulerang_xyz tz Mbdy:blade1 E-nr:   5 Z-rel:1.00 coo: blade1  blade e5 rotation (eulerp)
+    38      State pos x  coo: blade1       m          State pos x  Mbdy:blade1 E-nr:   9 Z-rel:1.00 coo: blade1  blade 9 pos
+    39      State pos y  coo: blade1       m          State pos y  Mbdy:blade1 E-nr:   9 Z-rel:1.00 coo: blade1  blade 9 pos
+    40      State pos z  coo: blade1       m          State pos z  Mbdy:blade1 E-nr:   9 Z-rel:1.00 coo: blade1  blade 9 pos
+    41      eulerang_xyz tx coo: blade1    deg        State_rot eulerang_xyz tx Mbdy:blade1 E-nr:   9 Z-rel:1.00 coo: blade1  blade e9 rotation (eulerp)
+    42      eulerang_xyz ty coo: blade1    deg        State_rot eulerang_xyz ty Mbdy:blade1 E-nr:   9 Z-rel:1.00 coo: blade1  blade e9 rotation (eulerp)
+    43      eulerang_xyz tz coo: blade1    deg        State_rot eulerang_xyz tz Mbdy:blade1 E-nr:   9 Z-rel:1.00 coo: blade1  blade e9 rotation (eulerp)
+    44      State pos x  coo: blade1       m          State pos x  Mbdy:blade1 E-nr:  11 Z-rel:1.00 coo: blade1  blade e11 pos
+    45      State pos y  coo: blade1       m          State pos y  Mbdy:blade1 E-nr:  11 Z-rel:1.00 coo: blade1  blade e11 pos
+    46      State pos z  coo: blade1       m          State pos z  Mbdy:blade1 E-nr:  11 Z-rel:1.00 coo: blade1  blade e11 pos
+    47      eulerang_xyz tx coo: blade1    deg        State_rot eulerang_xyz tx Mbdy:blade1 E-nr:  11 Z-rel:1.00 coo: blade1  blade e11 rotation (eulerp)
+    48      eulerang_xyz ty coo: blade1    deg        State_rot eulerang_xyz ty Mbdy:blade1 E-nr:  11 Z-rel:1.00 coo: blade1  blade e11 rotation (eulerp)
+    49      eulerang_xyz tz coo: blade1    deg        State_rot eulerang_xyz tz Mbdy:blade1 E-nr:  11 Z-rel:1.00 coo: blade1  blade e11 rotation (eulerp)
+    50      State pos x  coo: blade1       m          State pos x  Mbdy:blade1 E-nr:  13 Z-rel:1.00 coo: blade1  blade e13 pos
+    51      State pos y  coo: blade1       m          State pos y  Mbdy:blade1 E-nr:  13 Z-rel:1.00 coo: blade1  blade e13 pos
+    52      State pos z  coo: blade1       m          State pos z  Mbdy:blade1 E-nr:  13 Z-rel:1.00 coo: blade1  blade e13 pos
+    53      eulerang_xyz tx coo: blade1    deg        State_rot eulerang_xyz tx Mbdy:blade1 E-nr:  13 Z-rel:1.00 coo: blade1  blade e13 rotation (eulerp)
+    54      eulerang_xyz ty coo: blade1    deg        State_rot eulerang_xyz ty Mbdy:blade1 E-nr:  13 Z-rel:1.00 coo: blade1  blade e13 rotation (eulerp)
+    55      eulerang_xyz tz coo: blade1    deg        State_rot eulerang_xyz tz Mbdy:blade1 E-nr:  13 Z-rel:1.00 coo: blade1  blade e13 rotation (eulerp)
+    56      State pos x  coo: blade1       m          State pos x  Mbdy:blade1 E-nr:  15 Z-rel:1.00 coo: blade1  blade e15 pos
+    57      State pos y  coo: blade1       m          State pos y  Mbdy:blade1 E-nr:  15 Z-rel:1.00 coo: blade1  blade e15 pos
+    58      State pos z  coo: blade1       m          State pos z  Mbdy:blade1 E-nr:  15 Z-rel:1.00 coo: blade1  blade e15 pos
+    59      eulerang_xyz tx coo: blade1    deg        State_rot eulerang_xyz tx Mbdy:blade1 E-nr:  15 Z-rel:1.00 coo: blade1  blade e15 rotation (eulerp)
+    60      eulerang_xyz ty coo: blade1    deg        State_rot eulerang_xyz ty Mbdy:blade1 E-nr:  15 Z-rel:1.00 coo: blade1  blade e15 rotation (eulerp)
+    61      eulerang_xyz tz coo: blade1    deg        State_rot eulerang_xyz tz Mbdy:blade1 E-nr:  15 Z-rel:1.00 coo: blade1  blade e15 rotation (eulerp)
+    62      State pos x  coo: blade1       m          State pos x  Mbdy:blade1 E-nr:  17 Z-rel:1.00 coo: blade1  blade e17 pos
+    63      State pos y  coo: blade1       m          State pos y  Mbdy:blade1 E-nr:  17 Z-rel:1.00 coo: blade1  blade e17 pos
+    64      State pos z  coo: blade1       m          State pos z  Mbdy:blade1 E-nr:  17 Z-rel:1.00 coo: blade1  blade e17 pos
+    65      eulerang_xyz tx coo: blade1    deg        State_rot eulerang_xyz tx Mbdy:blade1 E-nr:  17 Z-rel:1.00 coo: blade1  blade e17 rotation (eulerp)
+    66      eulerang_xyz ty coo: blade1    deg        State_rot eulerang_xyz ty Mbdy:blade1 E-nr:  17 Z-rel:1.00 coo: blade1  blade e17 rotation (eulerp)
+    67      eulerang_xyz tz coo: blade1    deg        State_rot eulerang_xyz tz Mbdy:blade1 E-nr:  17 Z-rel:1.00 coo: blade1  blade e17 rotation (eulerp)
+    68      State pos x  coo: blade1       m          State pos x  Mbdy:blade1 E-nr:  18 Z-rel:1.00 coo: blade1  blade e18 pos
+    69      State pos y  coo: blade1       m          State pos y  Mbdy:blade1 E-nr:  18 Z-rel:1.00 coo: blade1  blade e18 pos
+    70      State pos z  coo: blade1       m          State pos z  Mbdy:blade1 E-nr:  18 Z-rel:1.00 coo: blade1  blade e18 pos
+    71      eulerang_xyz tx coo: blade1    deg        State_rot eulerang_xyz tx Mbdy:blade1 E-nr:  18 Z-rel:1.00 coo: blade1  blade e18 rotation (eulerp)
+    72      eulerang_xyz ty coo: blade1    deg        State_rot eulerang_xyz ty Mbdy:blade1 E-nr:  18 Z-rel:1.00 coo: blade1  blade e18 rotation (eulerp)
+    73      eulerang_xyz tz coo: blade1    deg        State_rot eulerang_xyz tz Mbdy:blade1 E-nr:  18 Z-rel:1.00 coo: blade1  blade e18 rotation (eulerp)
+    74      Mx coo: hub1                   kNm        MomentMx Mbdy:hub1 nodenr:   0 coo: hub1  mom hub1 root
+    75      My coo: hub1                   kNm        MomentMy Mbdy:hub1 nodenr:   0 coo: hub1  mom hub1 root
+    76      Mz coo: hub1                   kNm        MomentMz Mbdy:hub1 nodenr:   0 coo: hub1  mom hub1 root
+    77      Fx coo: hub1                   kN         Force  Fx Mbdy:hub1 nodenr:   0 coo: hub1  frc hub1 root
+    78      Fy coo: hub1                   kN         Force  Fy Mbdy:hub1 nodenr:   0 coo: hub1  frc hub1 root
+    79      Fz coo: hub1                   kN         Force  Fz Mbdy:hub1 nodenr:   0 coo: hub1  frc hub1 root
+    80      Mx coo: hub1                   kNm        MomentMx Mbdy:hub1 nodenr:   4 coo: hub1  mom hub1 root
+    81      My coo: hub1                   kNm        MomentMy Mbdy:hub1 nodenr:   4 coo: hub1  mom hub1 root
+    82      Mz coo: hub1                   kNm        MomentMz Mbdy:hub1 nodenr:   4 coo: hub1  mom hub1 root
+    83      Fx coo: hub1                   kN         Force  Fx Mbdy:hub1 nodenr:   4 coo: hub1  frc hub1 root
+    84      Fy coo: hub1                   kN         Force  Fy Mbdy:hub1 nodenr:   4 coo: hub1  frc hub1 root
+    85      Fz coo: hub1                   kN         Force  Fz Mbdy:hub1 nodenr:   4 coo: hub1  frc hub1 root
+    86      Mx coo: shaft                  kNm        MomentMx Mbdy:shaft nodenr:   4 coo: shaft  mom main bearing
+    87      My coo: shaft                  kNm        MomentMy Mbdy:shaft nodenr:   4 coo: shaft  mom main bearing
+    88      Mz coo: shaft                  kNm        MomentMz Mbdy:shaft nodenr:   4 coo: shaft  mom main bearing
+    89      State pos x  coo: global       m          State pos x  Mbdy:blade1 E-nr:  18 Z-rel:1.00 coo: global  blade 1 tip pos (global)
+    90      State pos y  coo: global       m          State pos y  Mbdy:blade1 E-nr:  18 Z-rel:1.00 coo: global  blade 1 tip pos (global)
+    91      State pos z  coo: global       m          State pos z  Mbdy:blade1 E-nr:  18 Z-rel:1.00 coo: global  blade 1 tip pos (global)
+    92      State pos x  coo: global       m          State pos x  Mbdy:blade2 E-nr:  18 Z-rel:1.00 coo: global  blade 2 tip pos (global)
+    93      State pos y  coo: global       m          State pos y  Mbdy:blade2 E-nr:  18 Z-rel:1.00 coo: global  blade 2 tip pos (global)
+    94      State pos z  coo: global       m          State pos z  Mbdy:blade2 E-nr:  18 Z-rel:1.00 coo: global  blade 2 tip pos (global)
+    95      State pos x  coo: global       m          State pos x  Mbdy:blade3 E-nr:  18 Z-rel:1.00 coo: global  blade 3 tip pos (global)
+    96      State pos y  coo: global       m          State pos y  Mbdy:blade3 E-nr:  18 Z-rel:1.00 coo: global  blade 3 tip pos (global)
+    97      State pos z  coo: global       m          State pos z  Mbdy:blade3 E-nr:  18 Z-rel:1.00 coo: global  blade 3 tip pos (global)
+    98      State pos x  coo: global       m          State pos x  Mbdy:tower E-nr:   9 Z-rel:1.00 coo: global  tower top flange position
+    99      State pos y  coo: global       m          State pos y  Mbdy:tower E-nr:   9 Z-rel:1.00 coo: global  tower top flange position
+   100      State pos z  coo: global       m          State pos z  Mbdy:tower E-nr:   9 Z-rel:1.00 coo: global  tower top flange position
+   101      DLL inp  1:  1                 -          DLL : 1 inpvec :  1  mgen lss
+   102      DLL inp  1:  6                 -          DLL : 1 inpvec :  6  mgen hss
+   103      DLL inp  1:  8                 -          DLL : 1 inpvec :  8  mechanical power generator kw
+   104      DLL inp  1:  9                 -          DLL : 1 inpvec :  9  electrical power generator kw
+________________________________________________________________________________________________________________________
+Scale factors:
+  2.03125E-02
+  1.12496E-02
+  2.35312E-04
+  1.00000E+00
+  1.00000E+00
+  1.00000E+00
+  1.00000E+00
+  1.00000E+00
+  1.00000E+00
+  5.46815E-05
+  1.87573E-04
+  4.23826E-05
+  2.46420E-05
+  2.16774E-02
+  1.70196E-02
+  5.99432E-03
+  4.96908E-04
+  1.08554E-04
+  1.19226E-04
+  9.24815E-02
+  1.11862E-01
+  1.31038E-03
+  5.36781E-03
+  2.41036E-03
+  1.25039E-02
+  4.70234E-01
+  2.88158E-02
+  4.59568E-02
+  1.72065E-06
+  7.91888E-06
+  2.60267E-04
+  1.08851E-06
+  3.45231E-06
+  4.48003E-04
+  6.12916E-06
+  1.29026E-05
+  3.95274E-04
+  1.55237E-05
+  5.89625E-06
+  9.60630E-04
+  4.20458E-05
+  5.88197E-05
+  2.35215E-04
+  2.40297E-05
+  1.39412E-05
+  1.21701E-03
+  6.50916E-05
+  6.04319E-05
+  1.66524E-04
+  3.31617E-05
+  2.65668E-05
+  1.47337E-03
+  9.87205E-05
+  6.51439E-05
+  1.09296E-04
+  4.18495E-05
+  4.24372E-05
+  1.70845E-03
+  1.22089E-04
+  6.70685E-05
+  5.58163E-05
+  4.85311E-05
+  5.52696E-05
+  1.87900E-03
+  1.32856E-04
+  7.29816E-05
+  2.43865E-05
+  5.00396E-05
+  5.85315E-05
+  1.92190E-03
+  1.32856E-04
+  7.29816E-05
+  2.43865E-05
+  9.81973E-02
+  1.29536E-01
+  1.29379E-03
+  1.15638E-02
+  2.41129E-03
+  1.92002E-02
+  9.57859E-02
+  1.19454E-01
+  1.29379E-03
+  5.69605E-03
+  2.41125E-03
+  1.31155E-02
+  1.00093E-01
+  1.02441E-01
+  1.76283E-02
+  1.96880E-03
+  2.15412E-04
+  4.76739E-03
+  1.96882E-03
+  2.14958E-04
+  4.76737E-03
+  1.96879E-03
+  2.13340E-04
+  4.76739E-03
+  3.78252E-12
+  5.67806E-11
+  2.79875E-03
+  1.76055E+01
+  1.81500E-01
+  1.38790E-02
+  1.31017E-02

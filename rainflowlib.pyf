@@ -1,0 +1,55 @@
+! File rainflowlib.pyf
+python module rainflowlib
+interface
+    subroutine rf3(array_ext, array_out, n, nout)
+        intent(c) rf3                 ! rf3 is a C function
+        intent(c)                     ! all rf3 arguments are 
+                                      ! considered as C based
+        
+        ! n is the length of the input array array_ext
+        integer intent(hide), depend(array_ext) :: n=len(array_ext)
+        
+        ! of input array x
+        double precision intent(in) :: array_ext(n)
+        
+        ! the output array
+        double precision intent(out) :: array_out(n,3)
+        
+        ! nout array, to output additional ints
+        integer dimension(2), intent(out) :: nout        
+    end subroutine rf3
+
+    subroutine rf5(array_ext, array_t, array_out, n, nout)
+        intent(c) rf5                 ! rf5 is a C function
+        intent(c)                     ! all rf5 arguments are 
+                                      ! considered as C based
+        
+        ! n is the length of the input array array_ext
+        integer intent(hide), depend(array_ext) :: n=len(array_ext)
+        
+        ! of input array x
+        double precision intent(in) :: array_ext(n), array_t(n)
+        
+        ! the output array
+        double precision intent(out) :: array_out(n,5)
+        
+        ! nout array, to output additional ints
+        integer dimension(2), intent(out) :: nout        
+    end subroutine rf3
+
+    subroutine findcross(y, v, ind, n, info)
+        intent(c) findcross           ! findcross is a C function
+        intent(c)                     ! all findcross arguments are
+                                      ! considered as C based
+                                 
+        integer intent(hide), depend(y) :: n=len(y)
+        double precision dimension(n), intent(in) :: y    ! input array 
+        double precision intent(in) :: v    
+        
+        ! output        
+        integer dimension(n), intent(out) :: ind
+        integer dimension(1), intent(out) :: info
+    end subroutine findcross
+
+end interface
+end python module rainflowlib
