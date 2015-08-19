@@ -1,4 +1,4 @@
-Author: David Verelst (david.verelst@gmail.com)
+Author: David Verelst (david dotta verelst at_da gmail.com)
 version: 0.1
 
 Build instructions
