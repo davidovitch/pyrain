@@ -1,6 +1,10 @@
 Author: David Verelst (david dotta verelst at_da gmail.com)
 version: 0.1
 
+Note that ```cython_compile.py``` is created by ```madsmpedersen``` and is
+available at:
+https://github.com/madsmpedersen/MMPE/tree/master/mmpe/cython_compile
+
 Build instructions
 ==================
 
